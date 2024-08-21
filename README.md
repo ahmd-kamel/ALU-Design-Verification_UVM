@@ -24,6 +24,7 @@ The 32-bit ALU supports the following operations, selected by a 3-bit OP code:
 - **000**: AND
 - **001**: OR
 - **010**: Addition
+- **011**: No Operation
 - **100**: Subtraction
 - **101**: Multiplication
 - **110**: Set if less than
@@ -73,6 +74,6 @@ The UVM environment for verifying the ALU includes the following components:
     │   └── alu_subscriber.sv    # UVM Subscriber
     │   
     ├── scripts
-    │   ├── run_simulation.do    # Script to compile and run simulation
-    │   └── filelist.f           # File list for compilation
+    │   ├── run_simulation.do    # Script to compile and 
+    │
     └── README.md                # This file
